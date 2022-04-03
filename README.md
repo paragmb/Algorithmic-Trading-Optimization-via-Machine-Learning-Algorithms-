@@ -9,7 +9,7 @@ This project leverages jupyterlab version 3.2.1.
 
 Ensure the conda dev environment is activated.
 
-Using CLI, please launch the jupyter lab. Please open the machine_learning_trading_bot.ipynb. 
+Using CLI, please launch the jupyter lab. Please open the machine_learning_trading_bot.ipynb. This file is saved with the baseline trading algorithm.
 
 ## Overview of the Analysis
 
@@ -39,7 +39,7 @@ Again, LogisticRegression model perfoms worse compared to the tuned trading algo
 ##### a) Adjusting the size of training set
 Baseline Training Dataset = 3 months
 
-Training Dataset changed to 2 months: Although the strategy returns try to match with the actual returns towards the end of 2020 we lose the overlap of the curves reduces during end of 2017 to end of 2019. The accuracy score goes is 0.55.
+Training Dataset changed to 2 months: Although the strategy returns try to match with the actual returns towards the end of 2020 we lose the overlap of the curves reduces during end of 2017 to end of 2019. The accuracy score is 0.55.
 
 Training Dataset changed to 1 months: There is a distinct gap between the strategy returns and the actual returns throughout the dataset. The accuracy score is 0.55. So we concur that using the training dataset of 1 month is not a viable option.
 
@@ -74,6 +74,6 @@ long_window = 105 days
 
 <img src="Images/base_tuned.PNG" width="450" height="300">
 
-As seen from the plot above the strategy returns have improved over the actual returns after setting the new parameters as compared to the baseline model. The accuracy score improved to 0.56 as compared to 0.55 in baseline model.
+As seen from the plot above the strategy returns have improved over the actual returns after setting the new parameters as compared to the baseline model. The accuracy score improved to 0.56 as compared to 0.55 in baseline model. The strategy returns show slight increase to 1.6 % compared to 1.5 % as seen in the basline model.
 
 
